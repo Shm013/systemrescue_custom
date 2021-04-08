@@ -74,7 +74,7 @@ lftp
 libvncserver
 linux-atm
 linux-firmware
-linux-lts
+linux
 localepurge
 lshw
 lsof
@@ -190,3 +190,9 @@ zerofree
 zile
 zip
 zsh
+open-iscsi
+fio
+tftp-hpa
+freerdp
+unrar
+zfs-linux

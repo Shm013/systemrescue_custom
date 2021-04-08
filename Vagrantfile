@@ -16,9 +16,6 @@ Vagrant.configure("2") do |config|
   config.vm.provision "shell", inline: <<-SHELL
     sudo pacman-key -r DDF7DB817396A49B2A2723F7403BD972F75D9D76 && \
     sudo pacman-key --lsign-key DDF7DB817396A49B2A2723F7403BD972F75D9D76 && \
-    cat /vagrant/packages_extra >> #$build_dir/packages && \
-    cat /vagrant/archzfs/pacman_extra.conf >> #$build_dir/pacman.conf && \
-    cp -r /vagrant/ssh #$build_dir/airootfs/root/.ssh && \
     echo "#$archiso_sha256sum v43.tar.gz" > checksum.sha256 && \
     curl -O -L #$archios_url && \
     sha256sum -c checksum.sha256 && \
