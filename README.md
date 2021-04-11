@@ -5,13 +5,12 @@ This is fork from https://gitlab.com/systemrescue/systemrescue-sources
 ## List of changes
 
  - Additional packages
-   - `zsf` from [archzfs](https://github.com/archzfs/archzfs)
+   - `zsf-linux` from [archzfs](https://github.com/archzfs/archzfs)
    - `open-iscsi`
    - `fio`
    - `tftp-hpa`
    - `freerdp`
    - `unrar`
-   - `zfs-linux`
  - Use `linux` instead of `linux-lts`
  - Easy build with Vagrant (with archiso patches)
  - ssh port is open by default
