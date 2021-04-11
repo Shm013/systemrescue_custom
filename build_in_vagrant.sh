@@ -8,4 +8,4 @@ PRIVKEY="$PROJECT/.vagrant/machines/default/libvirt/private_key"
 SOURCE="/vagrant"
 
 mkdir -p $PROJECT/build/out
-scp -r -i $PRIVKEY -o 'StrictHostKeyChecking no' vagrant@$ADDRESS:$SOURCE/out $PROJECT/build/out
+scp -r -i $PRIVKEY -o 'StrictHostKeyChecking no' vagrant@$ADDRESS:$SOURCE/out $PROJECT/build
