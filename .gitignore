@@ -2,3 +2,4 @@ out
 work
 *.sw?
 .vagrant
+airootfs/root/.ssh/authorized_keys
