@@ -13,7 +13,7 @@ This is fork from https://gitlab.com/systemrescue/systemrescue-sources
    - `unrar`
  - Use `linux` instead of `linux-lts`
  - Easy build with Vagrant (with archiso patches)
- - ssh port is open by default
+ - SSH port is open by default
 
 ## Build
 
