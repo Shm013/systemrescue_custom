@@ -5,7 +5,7 @@ This is fork from https://gitlab.com/systemrescue/systemrescue-sources
 ## List of changes
 
  - Additional packages
-   - zsf from [archzfs](https://github.com/archzfs/archzfs)
+   - `zsf` from [archzfs](https://github.com/archzfs/archzfs)
    - `open-iscsi`
    - `fio`
    - `tftp-hpa`
@@ -18,14 +18,14 @@ This is fork from https://gitlab.com/systemrescue/systemrescue-sources
 
 ## Build
 
-Build in Vagrant (I use Vagrant with libvirt).
+Build in Vagrant (I use Vagrant with libvirt):
 ```bash
 ./build_in_vagrant.sh
 ```
 
 Result will be in `./build/out` directory.
 
-To clean up run
+To cleanup run:
 ```bash
 vagrant destroy
 rm -rf build
