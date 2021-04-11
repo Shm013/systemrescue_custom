@@ -36,6 +36,6 @@ Vagrant.configure("2") do |config|
     cd archiso-43 && \
     sudo make install && \
     cd #$build_dir && \
-    sudo ./build.sh -N systemrescue_zsh -v
+    sudo ./build.sh -N systemrescue_custom -v
   SHELL
 end
