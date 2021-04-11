@@ -14,6 +14,26 @@ This is fork from https://gitlab.com/systemrescue/systemrescue-sources
    - `zfs-linux`
  - Use `linux` instead of `linux-lts`
  - Easy build with Vagrant (with archiso patches)
+ - ssh port is open by default
+
+## Build
+
+Build in Vagrant (I use Vagrant with libvirt).
+```bash
+./build_in_vagrant.sh
+```
+
+Result will be in `./build/out` directory.
+
+To clean up run
+```bash
+vagrant destroy
+rm -rf build
+```
+
+## Upload your own ssh keys
+
+Just paste your public keys into `airootfs/root/.ssh/authorized_keys`.
 
 ## Project website
 Homepage: https://www.system-rescue.org/
